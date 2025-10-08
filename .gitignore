@@ -2,7 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-**/[Ll]ibrary/**
+**/[Ll]ibrary/
 !**/[Ll]ibrary/LastSceneManagerSetup.txt
 **/[Tt]emp/
 **/[Oo]bj/
@@ -10,7 +10,7 @@
 **/[Bb]uilds/
 **/[Ll]ogs/
 
-**/[Uu]ser[Ss]ettings/**
+**/[Uu]ser[Ss]ettings/
 !**/[Uu]ser[Ss]ettings/EditorUserSettings.asset
 
 # MemoryCaptures can get excessive in size.
@@ -79,3 +79,4 @@ crashlytics-build.properties
 .DS_Store
 ehthumbs.db
 Thumbs.db
+**/.vscode/**
