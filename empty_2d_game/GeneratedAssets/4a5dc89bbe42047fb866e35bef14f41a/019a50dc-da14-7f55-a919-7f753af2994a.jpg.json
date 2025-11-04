@@ -1,0 +1,24 @@
+{
+    "asset": "4a5dc89bbe42047fb866e35bef14f41a",
+    "fileName": "019a50dc-da14-7f55-a919-7f753af2994a.jpg",
+    "prompt": "a cartoon flappy bird sprite, side view, bright colors, transparent background",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "1ec04a5fded386edb373e6705107cb5f",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    }
+}
