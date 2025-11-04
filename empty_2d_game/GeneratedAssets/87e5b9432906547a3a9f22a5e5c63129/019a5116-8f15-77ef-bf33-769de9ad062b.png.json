@@ -1,0 +1,24 @@
+{
+    "asset": "87e5b9432906547a3a9f22a5e5c63129",
+    "fileName": "019a5116-8f15-77ef-bf33-769de9ad062b.png",
+    "prompt": "a bright, cartoon-style side view flappy bird with vibrant yellow feathers and big eyes",
+    "negativePrompt": "",
+    "model": "0409c144-da57-44a7-b531-72bc9a32fa4f",
+    "modelName": "GPT Image 1 - High",
+    "customSeed": -1,
+    "w3CTraceId": "fe424f42570f8d56f971164505cb7406",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    }
+}
