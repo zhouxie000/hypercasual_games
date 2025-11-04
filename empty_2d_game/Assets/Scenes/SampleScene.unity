@@ -619,6 +619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963258893}
   - component: {fileID: 1963258892}
+  - component: {fileID: 1963258894}
   m_Layer: 0
   m_Name: Route66Car
   m_TagString: Untagged
@@ -699,6 +700,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963258894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652941929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fa0791e23cd49daaf139d554958d53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Route66CarMovement
+  speed: 5
+  leftBoundary: -10
+  rightBoundary: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
