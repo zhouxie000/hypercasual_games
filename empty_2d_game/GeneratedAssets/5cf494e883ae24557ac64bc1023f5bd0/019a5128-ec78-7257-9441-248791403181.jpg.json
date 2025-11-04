@@ -1,0 +1,24 @@
+{
+    "asset": "5cf494e883ae24557ac64bc1023f5bd0",
+    "fileName": "019a5128-ec78-7257-9441-248791403181.jpg",
+    "prompt": "a complex and detailed Route 66 scene with vintage cars, diners, neon signs, desert landscape and dramatic sky",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "1bc1a5b0e7762374fbc15534ad460d7b",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    }
+}
