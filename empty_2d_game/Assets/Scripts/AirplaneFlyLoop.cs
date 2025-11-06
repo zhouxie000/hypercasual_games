@@ -25,12 +25,10 @@ public class AirplaneFlyLoop : MonoBehaviour
 
         // Check if it is completely out of camera view on top or right side
         Vector3 viewportPos = mainCamera.WorldToViewportPoint(transform.position);
-        if (viewportPos.x > 1.1f || viewportPos.y > 1.1f)
+        if (viewportPos.x > 1.05f || viewportPos.y > 1.05f)
         {
-            // reset to start position to re-enter view and re-fly towards top-right
+            // reset to start position to re-enter view
             transform.position = startPosition;
-            // recalculate direction immediately for next frame
-            direction = (topRightWorld - transform.position).normalized;
         }
     }
 }
