@@ -1,0 +1,24 @@
+{
+    "asset": "593f04405e8c64b50b3d2c9dc6a39ecd",
+    "fileName": "019a5833-9c8d-7803-9acd-82f9c5526f50.png",
+    "prompt": "an airplane sprite, side view",
+    "negativePrompt": "",
+    "model": "0409c144-da57-44a7-b531-72bc9a32fa4f",
+    "modelName": "GPT Image 1 - High",
+    "customSeed": -1,
+    "w3CTraceId": "8080a2cfdbf0deeaf28b81f44e37dacb",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    }
+}
