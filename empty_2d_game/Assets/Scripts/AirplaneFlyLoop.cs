@@ -2,33 +2,46 @@ using UnityEngine;
 
 public class AirplaneFlyLoop : MonoBehaviour
 {
-    public float speed = 2f; // movement speed in units per second
+    public float speed = 4f; // movement speed in units per second
     private Vector3 startPosition;
     private Camera mainCamera;
+    private int direction = 1; // 1 means right, -1 means left
 
     void Start()
     {
         mainCamera = Camera.main;
         startPosition = transform.position;
+
     }
 
     void Update()
     {
-        // Calculate the world position of the top-right corner of the camera's view
-        Vector3 topRightWorld = mainCamera.ViewportToWorldPoint(new Vector3(1.0f, 1.0f, Mathf.Abs(mainCamera.transform.position.z)));
+        // Move airplane horizontally based on direction
+        transform.position += new Vector3(direction, 0, 0) * speed * Time.deltaTime;
 
-        // Determine direction from current position towards the top-right corner
-        Vector3 direction = (topRightWorld - transform.position).normalized;
-
-        // Move the airplane in that direction
-        transform.position += direction * speed * Time.deltaTime;
-
-        // Check if it is completely out of camera view on top or right side
+        // Get airplane position in viewport coordinates (0 to 1 is inside camera view)
         Vector3 viewportPos = mainCamera.WorldToViewportPoint(transform.position);
-        if (viewportPos.x > 1.05f || viewportPos.y > 1.05f)
+
+        // Check if airplane reached left boundary
+        if (viewportPos.x <= 0f)
         {
-            // reset to start position to re-enter view
-            transform.position = startPosition;
+            direction = 1; // change direction to right
+
+            // Flip sprite vertically
+            Vector3 scale = transform.localScale;
+            scale.y = Mathf.Abs(scale.y);
+            transform.localScale = scale;
+        }
+
+        // Check if airplane reached right boundary
+        if (viewportPos.x >= 1f)
+        {
+            direction = -1; // change direction to left
+
+            // Flip sprite vertically
+            Vector3 scale = transform.localScale;
+            scale.y = -Mathf.Abs(scale.y);
+            transform.localScale = scale;
         }
     }
 }
