@@ -27,9 +27,9 @@ public class AirplaneFlyLoop : MonoBehaviour
         {
             direction = 1; // change direction to right
 
-            // Flip sprite vertically
+            // Flip sprite horizontally
             Vector3 scale = transform.localScale;
-            scale.y = Mathf.Abs(scale.y);
+            scale.x = Mathf.Abs(scale.x);
             transform.localScale = scale;
         }
 
@@ -38,9 +38,9 @@ public class AirplaneFlyLoop : MonoBehaviour
         {
             direction = -1; // change direction to left
 
-            // Flip sprite vertically
+            // Flip sprite horizontally
             Vector3 scale = transform.localScale;
-            scale.y = -Mathf.Abs(scale.y);
+            scale.x = -Mathf.Abs(scale.x);
             transform.localScale = scale;
         }
     }
