@@ -27,8 +27,10 @@ public class AirplaneFlyLoop : MonoBehaviour
         Vector3 viewportPos = mainCamera.WorldToViewportPoint(transform.position);
         if (viewportPos.x > 1.1f || viewportPos.y > 1.1f)
         {
-            // reset to start position to re-enter view
+            // reset to start position to re-enter view and re-fly towards top-right
             transform.position = startPosition;
+            // recalculate direction immediately for next frame
+            direction = (topRightWorld - transform.position).normalized;
         }
     }
 }
