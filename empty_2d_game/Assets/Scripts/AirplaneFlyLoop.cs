@@ -14,12 +14,12 @@ public class AirplaneFlyLoop : MonoBehaviour
 
     void Update()
     {
-        // Move the airplane up and to the right
-        transform.position += new Vector3(1, 1, 0) * speed * Time.deltaTime;
+        // Move the airplane up and to the left
+        transform.position += new Vector3(-1, 1, 0) * speed * Time.deltaTime;
 
-        // Check if it is completely out of camera view on top or right side
+        // Check if it is completely out of camera view on top or left side
         Vector3 viewportPos = mainCamera.WorldToViewportPoint(transform.position);
-        if (viewportPos.x > 1.2f || viewportPos.y > 1.2f)
+        if (viewportPos.x < -0.2f || viewportPos.y > 1.2f)
         {
             // reset to start position to re-enter view
             transform.position = startPosition;
