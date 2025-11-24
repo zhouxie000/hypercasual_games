@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="MenuList.uss" />
+    <ui:VisualElement name="menu-root" class="menu-container">
+        <ui:Button name="settings-btn" class="menu-button" text="Settings" />
+        <ui:Button name="quit-btn" class="menu-button" text="Quit" />
+        <ui:Button name="restart-btn" class="menu-button" text="Restart" />
+    </ui:VisualElement>
+</ui:UXML>

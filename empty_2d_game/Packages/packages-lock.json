@@ -107,7 +107,8 @@
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.serialization": "3.1.1",
-        "com.unity.ai.toolkit": "1.0.0-pre.20"
+        "com.unity.ai.toolkit": "1.0.0-pre.20",
+        "com.unity.modules.uielements": "1.0.0"
       }
     },
     "com.unity.ai.assistant.developer-tools": {

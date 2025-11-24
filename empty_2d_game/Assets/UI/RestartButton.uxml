@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="RestartButton.uss" />
+    <ui:VisualElement name="root" class="container">
+        <ui:Button name="restart-btn" class="restart-button" text="Restart" />
+    </ui:VisualElement>
+</ui:UXML>

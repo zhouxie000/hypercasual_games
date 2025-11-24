@@ -1,0 +1,24 @@
+{
+    "asset": "5af8e1df650ed4b6b95cf7fe16ea87a0",
+    "fileName": "019a6040-9a4a-7065-af08-a48c94d96f65.jpg",
+    "prompt": "a soft, abstract gradient background with smooth shapes, modern UI style",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "ad1943e5185f541c12347b0a09c45cae",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    }
+}
