@@ -682,10 +682,17 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
+<<<<<<< Updated upstream
   cloudProjectId: c012f231-8771-4f4a-b526-d338ca3522dd
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: empty_2d_game (1)
+=======
+  cloudProjectId: 3a6917a1-a88b-4ef1-abe5-55195099b9a0
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: empty_2d_game
+>>>>>>> Stashed changes
   organizationId: muse-tools
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

@@ -8,10 +8,16 @@
     "com.unity.2d.spriteshape": "12.0.1",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.2d.tilemap.extras": "5.0.1",
+<<<<<<< Updated upstream
     "com.unity.ai.assistant": "file:/Users/kaizhong/Documents/dev/ai_assistant/muse-editor/Packages/com.unity.ai.assistant",
     "com.unity.ai.assistant.developer-tools": "file:/Users/kaizhong/Documents/dev/ai_assistant/muse-editor/Packages/com.unity.ai.assistant.developer-tools",
     "com.unity.ai.generators": "file:/Users/kaizhong/Documents/dev/ai_assistant/muse-editor/Packages/com.unity.ai.generators",
     "com.unity.ai.toolkit": "file:/Users/kaizhong/Documents/dev/ai_assistant/muse-editor/Packages/com.unity.ai.toolkit",
+=======
+    "com.unity.ai.assistant": "1.0.0-pre.12",
+    "com.unity.ai.generators": "1.0.0-pre.20",
+    "com.unity.ai.inference": "2.4.1",
+>>>>>>> Stashed changes
     "com.unity.collab-proxy": "2.9.3",
     "com.unity.ide.rider": "3.0.38",
     "com.unity.ide.visualstudio": "2.0.23",
